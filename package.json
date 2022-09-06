@@ -1,0 +1,23 @@
+{
+  "name": "demoexpressservertypescript",
+  "version": "1.0.0",
+  "description": "Express server demo",
+  "main": "src/app/main.ts",
+  "scripts": {
+    "start": "node src/app/main.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/app/main.ts",
+    "test": ""
+  },
+  "author": "Luciano Brito",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.2"
+  }
+}
